@@ -28,14 +28,13 @@ L'application est développée avec **Streamlit**, permettant une interface simp
 - 📋 Analyse et affichage des statistiques descriptives
 
 ---
-
 ## 📂 Structure du Projet
 
-│
+
 ├── appfinal.py # Code principal Streamlit
-├── data
-├───── KDDTrain+.csv 
-├───── KDDTrainmoitier.csv 
+├── data/
+│ ├── KDDTrain+.csv # Dataset complet
+│ └── KDDTrainmoitier.csv # Sous-ensemble du dataset
 ├── requirements.txt # Fichier de dépendances Python
 └── README.md # Documentation du projet
 
