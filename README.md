@@ -31,8 +31,8 @@ L'application est développée avec **Streamlit**, permettant une interface simp
 ## 📂 Structure du Projet
 
 
-├── appfinal.py # Code principal Streamlit
-├── data/
+├── appfinal.py # Code principal Streamlit'
+├── data/'
 │ ├── KDDTrain+.csv # Dataset complet
 │ └── KDDTrainmoitier.csv # Sous-ensemble du dataset
 ├── requirements.txt # Fichier de dépendances Python
