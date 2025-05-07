@@ -854,14 +854,6 @@ if uploaded_file is not None:
             - **Interface utilisateur plus intuitive**: Améliorer l'UX/UI avec des tableaux de bord personnalisables, des indicateurs visuels simplifiés pour les non-experts et des workflows guidés.
             """)
 
-    # Feedback et contact
-    st.markdown("### 📝 Feedback")
-    
-    st.markdown("""
-    Cette application est un prototype pour la détection d'anomalies réseau. Vos commentaires sont précieux pour améliorer l'outil.
-    
-    Pour toute question ou suggestion, veuillez contacter [votre-email@example.com].
-    """)
 else:
     # Page d'accueil lorsqu'aucun fichier n'est chargé
     st.markdown("""
