@@ -16,7 +16,7 @@ from kneed import KneeLocator
 import time
 
 # Configuration de la page
-st.set_page_config(page_title="Détection d'anomalies Réseau", layout="wide")
+st.set_page_config(page_title="Détection d'anomalies Réseau",page_icon="applogo.png", layout="wide")
 st.title("Détection d'anomalies Réseau")
 
 # Sidebar pour les configurations
