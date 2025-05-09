@@ -17,13 +17,13 @@ import time
 
 # Configuration de la page
 st.set_page_config(page_title="Détection d'anomalies Réseau", layout="wide")
-st.title("🔍 Détection d'anomalies Réseau")
+st.title("Détection d'anomalies Réseau par apprentissage non suppervisé")
 
 # Sidebar pour les configurations
 st.sidebar.title("⚙️ Configuration")
 
 # Section upload
-uploaded_file = st.sidebar.file_uploader("📤 Choisissez un fichier CSV pour analyse", type=['csv'])
+uploaded_file = st.sidebar.file_uploader("Choisissez un fichier CSV pour analyse", type=['csv'])
 
 if uploaded_file is not None:
     # Chargement des données avec feedback utilisateur
